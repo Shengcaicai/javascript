@@ -21,8 +21,6 @@ function myFunction()
 }
 </script>
 
-
-
     <h1>我的第一个 Javascript 程序.</h1>
     <p>请输入 5 到 10 之间的数字：</p>
     <input id="demo" type="text">
