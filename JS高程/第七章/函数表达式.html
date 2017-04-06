@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        //函数声明提升
+        sayHi();
+        function sayHi(){
+            alert("Hi !");
+        }
+
+
+       //函数表达式（先复制再调用）
+        var sayHi = function(){
+            alert("Hi !");
+        }
+       sayHi();
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        //非严格模式下可访问arguments.callee
+        function factorial(num){
+            if(num<1){
+                return 1;
+            }else{
+                return num * arguments.callee(num-1);
+            }
+        }
+
+        var antherFactorial = factorial;
+        factorial = null;
+        alert(antherFactorial(4));
+
+
+
+        //严格模式和非严格模式下，使用f()命名函数表达式
+        var factorial = (function f(num){
+            if(num<1){
+                return 1;
+            }else{
+                return num * f(num-1);
+            }
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        function Person(name,age,job){
+            this.name = name;
+            this.age = age;
+            this.job = job;
+            this.friends = ["shelly","Zhangling"];
+            }
+
+        Person.prototype = {
+            constructor: Person,
+            sayName: function () {
+                alert(this.name);
+            }
+        }
+
+        var person1 = new Person("zhangxiaxia",24,"doctor");
+        var person2 = new Person("zhanling",25,"actor");
+
+        person1.friends.push("van");
+        alert(person1.friends);
+        alert(person2.friends);
+        alert(person1.friends == person2.friends);
+        alert(person1.sayName == person2.sayName);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

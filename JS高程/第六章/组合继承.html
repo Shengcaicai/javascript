@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function SuperType(name){
+            this.name = name;
+            this.color = ["red","blue","green"];
+        }
+
+        SuperType.prototype.sayName = function(){
+            alert(this.name);
+        };
+
+        function SubType(name,age){
+            SuperType.call(this,name);
+            this.age = age;
+        }
+
+        SubType.prototype = new SuperType();
+        SubType.prototype.constructor = SubType;
+        SubType.prototype.sayAge = function(){
+            alert(this.age);
+        };
+
+        var instancel1 = new SubType("Grey",24);
+        instancel1.color.push("yellow");
+        alert(instancel1.color);
+        instancel1.sayName();
+        instancel1.sayAge();
+
+        var instancel2 = new SubType("Gray",25);
+        alert(instancel2.color);
+        instancel2.sayName();
+        instancel2.sayAge();
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

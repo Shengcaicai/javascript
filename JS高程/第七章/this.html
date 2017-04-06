@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var name = "the window";
+
+        var object = {
+            name:"my object",
+
+            getNameFunc:function(){
+                return function(){
+                    return this.name;
+                };
+            }
+        };
+        //getNameFunc()返回一个函数，调用getNameFunc()()会立即调用它返回的函数
+        alert(object.getNameFunc()());
+
+
+
+
+        var name = "the window";
+
+        var object = {
+            name:"my object",
+
+            getNameFunc:function(){
+                var that = this;
+                return function(){
+                    return that.name;
+                };
+            }
+        };
+
+        alert(object.getNameFunc()());
+
+
+
+
+
+
+      var name = "the window";
+
+        var object = {
+            name: "my object",
+
+            getName: function () {
+                return this.name;
+            }
+        };
+
+        alert(object.getName());
+        alert((object.getName)());
+        alert((object.getName = object.getName)());
+    </script>
+</head>
+<body>
+
+</body>
+</html>

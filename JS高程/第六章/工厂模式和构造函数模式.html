@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        //工厂模式
+        function createPerson(name,age,job,){
+            var o = new Object();
+            o.name = name;
+            o.age = age;
+            o.job = job;
+            o.sayName= function(){
+                alert(this.name)
+            };
+            return o;
+        }
+
+        var person1 = createPerson("zhangxiaxia",24,"doctor");
+        var person2 = createPerson("zhanling",25,"actor");
+    </script>
+
+    <script>
+        //构造函数模式
+        function Person(name,age,job){
+            this.name = name;
+            this.age = age;
+            this.job = job;
+            this.sayName = function(){
+                alert(this.name);
+            };
+        }
+
+        var person1 = new Person("zhangxiaxia",24,"doctor");
+        var person2 = new Person("zhanling",25,"actor");
+    </script>
+
+
+
+</head>
+<body>
+
+</body>
+</html>

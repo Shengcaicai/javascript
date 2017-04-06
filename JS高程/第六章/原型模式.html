@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function Person(){
+        }
+
+        Person.prototype.name = "zhangling";
+        Person.prototype.age = 23;
+        Person.prototype.job = "worker";
+        Person.prototype.sayName = function(){
+            alert(this.name);
+        };
+
+        var person1 = new Person;
+        person1.name = "grey";
+        person1.sayName();
+        delete person1.name;
+        alert(person1.name);
+
+        var person2 = new Person;
+        person2.sayName();
+
+        alert(person1.sayName == person2.sayName);
+    </script>
+
+
+    <script>
+        //对象字面量重写原型对象
+        function Person(){
+        }
+
+        Person.prototype = {
+            name: "zhangling",
+            age: 23,
+            job: "worker",
+            sayName :function(){
+                alert(this.name);
+            }
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

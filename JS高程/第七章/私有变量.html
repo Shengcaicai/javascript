@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function Person(name){
+            //在构造函数中使用特权方法
+            this.getName = function(){
+                return name;
+            };
+
+            this.setName = function(value){
+                name = value;
+            };
+        }
+
+        var person = new Person("grey");
+        alert(person.getName());
+        person.setName("danny");
+        alert(person.getName());
+
+
+
+        //在私有作用域中使用特权方法
+        (function(){
+            var name = " ";
+
+            Person = function(value){
+                name = value;
+            };
+
+            Person.prototype.getName = function(){
+                return name;
+            };
+
+            Person.property.setName = function (value){
+                name = value;
+            };
+        })();
+
+
+        var person1 =new Person("jerry");
+        alert(person1.getName());
+        person1.setName("doy");
+        alert(person1.getName());
+
+
+
+        var person2 =new Person("ney");
+        alert(person1.getName());
+        alert(person2.getName());
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        //构造函数模式
+        function Person(name,age,job){
+            this.name = name;
+            this.age = age;
+            this.job = job;
+            this.sayName = function(){
+                alert(this.name);
+            };
+        }
+
+        //当构造函数方式调用
+        var person = new Person("zhangxiaxia",24,"doctor");
+        person.sayName();
+
+
+        //当普通函数方式调用
+        Person("zhangxiaxia",24,"doctor");
+        window.sayName();
+
+        //在一个对象当作用域中调用
+        var o = new Object();
+        Person.call(o,"zhangxiaxia",24,"worker");
+        o.sayName();
+    </script>
+</head>
+<body>
+
+</body>
+</html>
+

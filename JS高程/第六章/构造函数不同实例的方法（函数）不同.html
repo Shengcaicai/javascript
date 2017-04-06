@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        //构造函数模式
+        function Person(name,age,job){
+            this.name = name;
+            this.age = age;
+            this.job = job;
+            this.sayName = function(){
+                alert(this.name);
+            };
+        }
+
+        var person1 = new Person("zhangxiaxia",24,"doctor");
+        var person2 = new Person("zhanling",25,"actor");
+
+        //构造函数的不同实例的方法是一个函数，函数是一个对象，因此每定义一个函数，即实例化一个对象，方法是不同的
+        alert(person1.sayName == person2.sayName);
+    </script>
+
+
+
+    <script>
+        function Person(name,age,job){
+            this.name = name;
+            this.age = age;
+            this.job = job;
+            this.sayName = sayName;
+            }
+
+            //将sayName属性设置为函数，sayName包含指向函数的指针，person1,person2对象共享函数
+            function sayName(){
+              alert(this.name);
+        }
+
+        var person1 = new Person("zhangxiaxia",24,"doctor");
+        var person2 = new Person("zhanling",25,"actor");
+    </script>
+</head>
+<body>
+
+</body>
+</html>

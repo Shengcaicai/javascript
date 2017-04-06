@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function Person(){
+        }
+
+        Person.prototype.name = "zhangling";
+        Person.prototype.age = 23;
+        Person.prototype.job = "worker";
+        Person.prototype.sayName = function(){
+            alert(this.name);
+        };
+
+        var person1 = new Person;
+        var person2 = new Person;
+        alert(person1.hasOwnProperty("name"));
+
+        person1.name = "grey";
+        alert(person1.name);
+        alert(person1.hasOwnProperty("name"));
+
+        alert(person2.name);
+        alert(person2.hasOwnProperty("name"));
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
