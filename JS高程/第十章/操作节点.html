@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        //appendChild()用于向childNodes列表末尾添加一个节点
+
+
+        //insertBefore()把节点放在childNodes列表中某个特定的位置上
+        //插入后成为最后一个子节点
+        returnedNode = someNode.insertBefore(newNode,null);
+        alert(newNode == someNode.lastChild);
+        //插入后成为第一个子节点
+        returnedNode = someNode.insertBefore(newNode,someNode.firstChild);
+        alert(newNode == someNode.firstChild);
+
+
+        //replaceChild()替换第一个子节点
+        var returnedNode = someNode.replaceChild(newNode,someNode.firstChild);
+
+
+        //removeChild()移除第一个子节点
+        var formerFirstChild = someNode.removeChild(someNode.firstChild);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

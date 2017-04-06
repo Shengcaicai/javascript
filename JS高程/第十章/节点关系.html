@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        //每个节点包含一个childNodes属性，其中保存着NodeList对象，NodeList是一种类数组对象，可通过位置访问这些节点
+        var firstChild = someNode.childNodes[0];
+        var secondChild = someNode.childNodes.item(1);
+        var count = someNode.childNodes.length;
+
+
+
+        //每个节点都包含一个parentNode属性，指向文档树的父节点，每个节点的previousSibling和nextSibling属性
+        if(someNode.nextSibling == null){
+            alert("Last node in the parent's childNodes list");
+        }else if(someNode.previousSibling == null){
+            alert("First node in the parent's childNodes list");
+        }
+
+
+        //父节点的firstChild和lastChild属性指向childNodes列表第一个和最后一个节点
+        someNode.firstChild = someNode.childNodes[0];
+        someNode.lastChild = someNode.childNodes[someNode.childNodes.length-1];
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
