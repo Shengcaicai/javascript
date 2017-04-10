@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        //创建新的div元素指定值message的class的属性
+        var element = document.createElement("div");
+        element.className = "message";
+
+        //创建文本节点，并将其添加到刚创建的element元素中
+        var textNode = document.createTextNode("hello world!");
+        element.appendChild(textNode);
+
+        //创建多个文本节点
+        var anotherTextNode = document.createTextNode(Yoho);
+        element.appendChild(anotherTextNode);
+
+        //将element元素添加到body中
+        document.body.appendChild(element);
+
+
+        alert(element.childNodes.length);
+
+        //拼接起来的值
+        element.normalize();
+        alert(element.childNodes.length);
+        alert(element.firstChild.nodeValue);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

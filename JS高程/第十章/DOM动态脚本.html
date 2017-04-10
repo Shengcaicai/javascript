@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        //创建DOM代码
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = "client.js";
+        document.body.appendChild(script);
+
+
+
+        //封装函数调用
+        function loadScript(url){
+            var script = document.createElement("script");
+            script.type = "text/javascript";
+            script.src = "url";
+            document.body.appendChild(script);
+        }
+
+        //调用函数
+        loadScript("client.js");
+    </script>
+
+       //第一种<script type="text/javascript"  src="client.js"></script>
+
+       //第二种
+       <script type="text/javascript">
+           function sayHi(){
+               alert("Hi");
+           }
+
+           //创建DOM代码
+           var script = document.createElement("script");
+           script.type = "text/script";
+           var textNode = document.createTextNode("function sayHi(){alert('Hi')}");
+           script.appendChild(textNode);
+
+           script.text = function sayHi(){alert("Hi");};
+           document.body.appendChild(script);
+
+
+
+           //封装函数调用
+           function loadScriptstring(code){
+               var script = document.createElement("script");
+               script.type = "text/script";
+               try{
+                   var textNode = document.createTextNode(code);
+                   script.appendChild(textNode);
+               }catch(ex){
+                   script.text = code;
+               }
+               document.body.appendChild(script);
+           }
+
+           //调用函数
+           loadScriptstring(function sayHi(){alert("Hi");});
+       </script>
+
+
+
+
+
+
+
+</head>
+<body>
+
+</body>
+</html>

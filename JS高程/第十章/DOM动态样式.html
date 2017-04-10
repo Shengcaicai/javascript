@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    //第一种
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    <script>
+
+        //DOM方式创建函数
+        var link = document.createElement("link");
+        link.rel = "stylesheet";
+        link.type = "text/css";
+        link.href ="style.css";
+        var head = document.getElementsByTagName("head")[0];
+        head.appendChild(link);
+
+
+
+        //创建封装函数调用
+        function loadStyles(url){
+            var link = document.createElement("link");
+            link.rel = "stylesheet";
+            link.type = "text/css";
+            link.href ="url";
+            var head = document.getElementsByTagName("head")[0];
+            head.appendChild(link);
+        }
+
+        loadStyles("style.css");
+
+
+        //第二种
+           <style type = "text/css">
+            body{background-color:red;};
+           </style>
+
+        //DOM方式创建函数
+        var style = document.createElement("style");
+        style.type = "text/css";
+        var textNode = document.createTextNode("body{background-color:red;}");
+        style.appendChild(textNode);
+        var head = document.getElementsByTagName("head")[0];
+        head.appendChild(style);
+
+
+        function loadStylesstring(css){
+            var style = document.createElement("style");
+            style.type = "text/css";
+            try {
+                var textNode = document.createTextNode("css");
+                style.appendChild(textNode);
+            }catch(ex) {
+                style.stylesheet.cssText = css;
+            }
+                var head = document.getElementsByTagName("head")[0];
+                head.appendChild(style);
+        }
+
+        loadStylesstring("body{background-color:red;}");
+
+    </script>
+
+
+</head>
+<body>
+
+</body>
+</html>
