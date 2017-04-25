@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        //type of 检测变量的数据类型
+        var message = "hi";
+
+        alert(typeof message);
+        alert(typeof(message));
+        alert(typeof 95);
+
+        //为初始化和未定义的变量执行typeof 均返回undefined
+        var message ;
+        alert(message);//defined
+
+        var age
+        alert(age);//defined
+
+
+        //null表示一个空对象指针
+        var car = null;
+        alert(typeof car);
+
+
+
+
+         //调用Boolean(),将一个值转化为其对应的Boolean值
+        var message = "hello world";
+        var messageBoolean = Boolean(message);
+
+
+        //调用isNaN(),不是数值的值会直接转化为数值，不能被转化为数值的值都会导致函数返回true
+        alert(isNaN(NaN));//true
+        alert(isNaN(10));//flase
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
