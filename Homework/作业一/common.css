@@ -209,9 +209,20 @@ header{
     text-decoration: none;
 }
 
- .section_3  .section_3-mid .text-left:hover {
-     background: #fff;
- }
+.section_3  .section_3-mid .text-left :hover a{
+    background: #fff;
+    color:red;
+    width: 183px;
+    height:30px;
+}
+
+.section_3  .section_3-mid .li :hover a{
+    background: #fff;
+    color:red;
+    width: 183px;
+    height:30px;
+}
+
 
 .section_3  .section_3-mid .text a:hover{
     color:#d41424;
@@ -247,21 +258,25 @@ header{
 
  .section_3  .section_3-mid .pic .num ul li{
      list-style: none;
-     display: inline;
-     padding-left: 12px;
+     float: left;
      color: #fff;
      font-size: 11px;
-     width: 10px;
+     width: 20px;
      height: 20px;
      border: 1px solid grey;
      border-radius: 50%;
      background: grey;
-     margin-left: -2px;
+     margin-left: 6px;
+     padding-top: 2px;
+     padding-left: 1px;
  }
 
 
 .section_3  .section_3-mid .pic .num ul li span{
     text-align: center;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
 }
 
 
@@ -270,7 +285,7 @@ header{
     text-decoration: none;
 }
 
- .section_3  .section_3-mid .pic .num ul li:hover{
+ .section_3  .section_3-mid .pic .num ul li:hover a{
     background:red;
 }
 

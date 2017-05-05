@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a49219d1-c7b6-4dc1-acfa-a158efdde26a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Homework/作业一/image/25.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Homework/作业一/image/26.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Homework/作业一/image/29.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Homework/作业一/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS高程/第三章/变量.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS高程/第三章/数据类型.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS高程/第十一章/querySelector()函数／querySelectorAll()函数.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JS高程/.idea/JS高程.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JS高程/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JS高程/.idea/workspace.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JS高程/第十章/使用NodeList.html" afterPath="$PROJECT_DIR$/Homework/作业一/JD.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DOM/.idea/workspace.xml" afterPath="$PROJECT_DIR$/DOM/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,7 +30,7 @@
       <file leaf-file-name="JD.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Homework/作业一/JD.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
+            <state relative-caret-position="2205">
               <caret line="147" column="51" lean-forward="false" selection-start-line="147" selection-start-column="51" selection-end-line="147" selection-end-column="51" />
               <folding />
             </state>
@@ -59,8 +47,8 @@
       <file leaf-file-name="common.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Homework/作业一/common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="225" column="0" lean-forward="true" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
+            <state relative-caret-position="15">
+              <caret line="225" column="0" lean-forward="false" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -171,7 +159,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -200,6 +187,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -293,12 +281,13 @@
       <workItem from="1491527823366" duration="2964000" />
       <workItem from="1491788848468" duration="10566000" />
       <workItem from="1492997464899" duration="27078000" />
-      <workItem from="1493085052754" duration="3416000" />
+      <workItem from="1493085052754" duration="3560000" />
+      <workItem from="1493091990941" duration="50000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44024000" />
+    <option name="totallyTimeSpent" value="44218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -551,7 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -573,6 +561,27 @@
     <entry file="file://$PROJECT_DIR$/Homework/作业一/image/12.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework/作业一/image/5.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework/作业一/JD.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2205">
+          <caret line="147" column="51" lean-forward="false" selection-start-line="147" selection-start-column="51" selection-end-line="147" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework/作业一/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="225" column="0" lean-forward="false" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Homework/作业一/image/11.pic">
@@ -606,27 +615,6 @@
     <entry file="file://$PROJECT_DIR$/Homework/作业一/image/6.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework/作业一/image/5.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework/作业一/JD.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="147" column="51" lean-forward="false" selection-start-line="147" selection-start-column="51" selection-end-line="147" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework/作业一/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="225" column="0" lean-forward="true" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
   </component>

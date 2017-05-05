@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>冒泡排序</title>
+    <script type="text/javascript">
+        var a;
+        a = [65,97,76,13,27,49,58];
+        (function sort(){
+            for(var i = 0; i < a.length-1; i++){
+                for(var j = 0; j < a.length - 1 - i; j++){
+                    if(a[j] > a[j+1]){
+                        var temp = a[j];
+                        a[j] = a[j+1];
+                        a[j+1]= temp;
+                    }
+                }
+            }
+            alert(a);
+        })();
+
+    </script>
+</head>
+<body>
+</body>
+</html>

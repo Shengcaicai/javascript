@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>输入用户名</title>
+    <style>
+        #box{font-size:15px;width:500px;height:300px;margin:0 auto;}
+        p{text-align: left;}
+        button{width: 188px;height: 32px;margin-left: 4px;margin-top: 20px;}
+    </style>
+    <script type="text/javascript">
+        window.onload = function(){
+            var oInp = document.getElementsByTagName("input");
+            var oBut = document.getElementsByTagName("button")[0];
+
+
+            oBut.onclick = function(){
+                if (oInp[0].value == "admin" && oInp[1].value == "888888") {
+                    alert("登录成功")
+                }
+                else if (oInp[0].value == "" && oInp[1].value == ""){
+                    alert("请输入用户名和密码")
+                }
+                else {
+                    alert("用户名或密码不正确，请重新输入")
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="box">
+        <p>用户名：<input type="text"  placeholder="name" value=""／></p>
+        <p>密码：<input type="text" placeholder="password" value=""／></p>
+        <button>登陆</button>
+    </div>
+
+</body>
+</html>
