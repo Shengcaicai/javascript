@@ -193,14 +193,33 @@ header{
 }
 
 
- .section_3  .section_3-mid .text .text-left{
+
+
+.section_3  .section_3-mid .text .text-left{
     height:30px;
     font-size: 12px;
     font-family:sans-serif;
 }
 
+
+.section_3  .section_3-mid .text .text-left li{
+     list-style-type: none;
+}
+
+.section_3  .section_3-mid .text .text-left li:hover{
+    background: #fff;
+}
+
+.section_3  .section_3-mid .text .text-left li:hover p{
+    color:red;
+}
+
+.section_3  .section_3-mid .text .text-left li:hover a{
+    color:red;
+}
+
  .section_3  .section_3-mid .text-left .content{
-    padding-top: 10px;
+     padding:10px 10px;;
     padding-left: 12px;
 }
 
@@ -209,29 +228,12 @@ header{
     text-decoration: none;
 }
 
-.section_3  .section_3-mid .text-left :hover a{
-    background: #fff;
-    color:red;
-    width: 183px;
-    height:30px;
-}
-
-.section_3  .section_3-mid .li :hover a{
-    background: #fff;
-    color:red;
-    width: 183px;
-    height:30px;
-}
-
-
-.section_3  .section_3-mid .text a:hover{
-    color:#d41424;
-}
-
  .section_3  .section_3-mid  .text-left p.enter{
-    margin-left: 167px;
-    margin-top: -18px;
-    color: #fff;
+     margin-left: 167px;
+     margin-top: -29px;
+     color: #fff;
+     padding-top: 2px;
+     position: absolute;
 }
 
 
@@ -285,7 +287,7 @@ header{
     text-decoration: none;
 }
 
- .section_3  .section_3-mid .pic .num ul li:hover a{
+ .section_3  .section_3-mid .pic .num ul li:hover{
     background:red;
 }
 

@@ -18,31 +18,84 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JD.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JD.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/作业一/JD.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="90" column="43" lean-forward="false" selection-start-line="90" selection-start-column="43" selection-end-line="90" selection-end-column="43" />
+            <state relative-caret-position="139">
+              <caret line="497" column="0" lean-forward="true" selection-start-line="497" selection-start-column="0" selection-end-line="497" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1到100整数和.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/作业二/1到100整数和.html">
+      <file leaf-file-name="30.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业一/image/30.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="29.jpeg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业一/image/29.jpeg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JD.jpeg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业一/image/JD.jpeg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业一/js.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="反转数组.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业二/反转数组.html">
+      <file leaf-file-name="jd2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业一/jd2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            <state relative-caret-position="105">
+              <caret line="7" column="70" lean-forward="false" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+              <folding>
+                <element signature="e#665#671#0" expanded="true" />
+                <element signature="e#2765#2769#1" expanded="true" />
+                <element signature="e#3375#3379#1" expanded="true" />
+                <element signature="e#3448#3452#1" expanded="true" />
+                <element signature="e#3515#3519#1" expanded="true" />
+                <element signature="e#3588#3592#1" expanded="true" />
+                <element signature="e#3655#3659#1" expanded="true" />
+                <element signature="e#3728#3732#1" expanded="true" />
+                <element signature="e#3795#3799#1" expanded="true" />
+                <element signature="e#3868#3872#1" expanded="true" />
+                <element signature="e#3935#3939#1" expanded="true" />
+                <element signature="e#4008#4012#1" expanded="true" />
+                <element signature="e#4075#4079#1" expanded="true" />
+                <element signature="e#4148#4152#1" expanded="true" />
+                <element signature="e#4215#4219#1" expanded="true" />
+                <element signature="e#4288#4292#1" expanded="true" />
+                <element signature="e#4355#4359#1" expanded="true" />
+                <element signature="e#5066#5070#1" expanded="true" />
+                <element signature="e#5120#5124#1" expanded="true" />
+                <element signature="e#9728#9732#1" expanded="true" />
+                <element signature="e#9782#9786#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业一/common.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-960">
+              <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -53,16 +106,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="输入用户名和密码.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业二/输入用户名和密码.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -88,30 +131,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业一/common.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3360">
-              <caret line="224" column="0" lean-forward="false" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/作业一/common.css" />
         <option value="$PROJECT_DIR$/作业二/js小题目.html" />
         <option value="$PROJECT_DIR$/作业二/js.js" />
         <option value="$PROJECT_DIR$/作业二/js.html" />
@@ -123,6 +156,14 @@
         <option value="$PROJECT_DIR$/作业二/学员增长20万.html" />
         <option value="$PROJECT_DIR$/作业二/输入用户名和密码.html" />
         <option value="$PROJECT_DIR$/作业二/李四的工作评定.html" />
+        <option value="$PROJECT_DIR$/作业一/image/jd.html" />
+        <option value="$PROJECT_DIR$/作业一/image/index.css" />
+        <option value="$PROJECT_DIR$/作业一/base.css" />
+        <option value="$PROJECT_DIR$/作业一/index.css" />
+        <option value="$PROJECT_DIR$/作业一/common.css" />
+        <option value="$PROJECT_DIR$/作业一/js.js" />
+        <option value="$PROJECT_DIR$/作业一/jd2.html" />
+        <option value="$PROJECT_DIR$/作业一/JD.html" />
       </list>
     </option>
   </component>
@@ -151,7 +192,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -164,9 +205,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="作业一" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,7 +231,13 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="FullScreen" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/作业一/image" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -252,18 +313,19 @@
       <workItem from="1493124516296" duration="2120000" />
       <workItem from="1493257746456" duration="16000" />
       <workItem from="1493800141125" duration="2627000" />
-      <workItem from="1493954796544" duration="9548000" />
+      <workItem from="1493954796544" duration="13426000" />
+      <workItem from="1494061777079" duration="31430000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14311000" />
+    <option name="totallyTimeSpent" value="49619000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -288,10 +350,66 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/作业一/JD.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业一/jd2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="70" lean-forward="true" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+          <folding>
+            <element signature="e#665#671#0" expanded="true" />
+            <element signature="e#2765#2769#1" expanded="true" />
+            <element signature="e#3375#3379#1" expanded="true" />
+            <element signature="e#3448#3452#1" expanded="true" />
+            <element signature="e#3515#3519#1" expanded="true" />
+            <element signature="e#3588#3592#1" expanded="true" />
+            <element signature="e#3655#3659#1" expanded="true" />
+            <element signature="e#3728#3732#1" expanded="true" />
+            <element signature="e#3795#3799#1" expanded="true" />
+            <element signature="e#3868#3872#1" expanded="true" />
+            <element signature="e#3935#3939#1" expanded="true" />
+            <element signature="e#4008#4012#1" expanded="true" />
+            <element signature="e#4075#4079#1" expanded="true" />
+            <element signature="e#4148#4152#1" expanded="true" />
+            <element signature="e#4215#4219#1" expanded="true" />
+            <element signature="e#4288#4292#1" expanded="true" />
+            <element signature="e#4355#4359#1" expanded="true" />
+            <element signature="e#5066#5070#1" expanded="true" />
+            <element signature="e#5120#5124#1" expanded="true" />
+            <element signature="e#9728#9732#1" expanded="true" />
+            <element signature="e#9782#9786#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业一/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2760">
+          <caret line="184" column="1" lean-forward="false" selection-start-line="184" selection-start-column="1" selection-end-line="184" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业一/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/作业一/JD.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
@@ -300,14 +418,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业二/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="18" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/作业二/js.js" />
     <entry file="file://$PROJECT_DIR$/作业二/1到100整数和.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -348,59 +459,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业一/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3360">
-          <caret line="224" column="0" lean-forward="false" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/作业二/js小题目.html" />
-    <entry file="file://$PROJECT_DIR$/作业二/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="18" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业一/JD.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="90" column="43" lean-forward="false" selection-start-line="90" selection-start-column="43" selection-end-line="90" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业二/5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/作业二/js.js" />
+    <entry file="file://$PROJECT_DIR$/作业二/5.html" />
     <entry file="file://$PROJECT_DIR$/作业二/输入用户名和密码.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业一/image/jd.html" />
+    <entry file="file://$PROJECT_DIR$/作业一/image/index.css" />
+    <entry file="file://$PROJECT_DIR$/作业一/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2760">
+          <caret line="184" column="1" lean-forward="false" selection-start-line="184" selection-start-column="1" selection-end-line="184" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业二/李四的工作评定.html">
+    <entry file="file://$PROJECT_DIR$/作业一/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        <state relative-caret-position="772">
+          <caret line="334" column="20" lean-forward="true" selection-start-line="334" selection-start-column="20" selection-end-line="334" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业二/学员增长20万.html">
+    <entry file="file://$PROJECT_DIR$/作业二/1到100整数和.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="45">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -413,6 +503,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/作业二/学员增长20万.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业二/李四的工作评定.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/作业二/冒泡排序.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -421,10 +527,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业二/1到100整数和.html">
+    <entry file="file://$PROJECT_DIR$/作业一/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业一/jd2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="70" lean-forward="false" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+          <folding>
+            <element signature="e#665#671#0" expanded="true" />
+            <element signature="e#2765#2769#1" expanded="true" />
+            <element signature="e#3375#3379#1" expanded="true" />
+            <element signature="e#3448#3452#1" expanded="true" />
+            <element signature="e#3515#3519#1" expanded="true" />
+            <element signature="e#3588#3592#1" expanded="true" />
+            <element signature="e#3655#3659#1" expanded="true" />
+            <element signature="e#3728#3732#1" expanded="true" />
+            <element signature="e#3795#3799#1" expanded="true" />
+            <element signature="e#3868#3872#1" expanded="true" />
+            <element signature="e#3935#3939#1" expanded="true" />
+            <element signature="e#4008#4012#1" expanded="true" />
+            <element signature="e#4075#4079#1" expanded="true" />
+            <element signature="e#4148#4152#1" expanded="true" />
+            <element signature="e#4215#4219#1" expanded="true" />
+            <element signature="e#4288#4292#1" expanded="true" />
+            <element signature="e#4355#4359#1" expanded="true" />
+            <element signature="e#5066#5070#1" expanded="true" />
+            <element signature="e#5120#5124#1" expanded="true" />
+            <element signature="e#9728#9732#1" expanded="true" />
+            <element signature="e#9782#9786#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业一/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-960">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业一/image/29.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业一/image/JD.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业一/image/30.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业一/JD.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="497" column="0" lean-forward="true" selection-start-line="497" selection-start-column="0" selection-end-line="497" selection-end-column="0" />
           <folding />
         </state>
       </provider>
