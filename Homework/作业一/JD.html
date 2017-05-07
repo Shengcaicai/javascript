@@ -513,15 +513,12 @@
                     alpha += 2;
                     alpha > 100 && (alpha = 100);
                     oLunbopicli[index].style.opacity = alpha/100;
+                    console.log(oLunbopicli[3].style.opacity);
                     oLunbopicli[index].style.opacity = "alpha(opacity = " + alpha + ")";
                     alpha = 100 && (clearInterval(timer));
                 }, 100);
             }
 
-
-                        index++;
-                        console.log(index);
-                        index > oLunbonumli.length && ( index = 0);
 
 
         }
