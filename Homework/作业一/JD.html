@@ -494,34 +494,51 @@
 
 
         var opacity = 0;
+
         var index = 0;
 
 
 
 
 
+//
+//        //自动播放函数
+//        function autoPlay(index){
+//            play = setInterval(function(){
+//                index++;
+//                index >= oImg.length && (index = 0);
+//                showOpa(index);
+//            },2000)
+//        }
+//        autoPlay();
+
+
+
         //每个图片透明度从0到1的动画
-        function showOpa(){
-            for(var i=0;i<oLunbopicli.length;i++) {
+        function showOpa() {
+
+            for ( var i = 0; i < oLunbopicli.length; i++) {
                 oLunbopicli[i].style.opacity = 0;
                 oLunbopicli[i].style.filter = "alpha(opacity = 0)";
 
 
                 timer = setInterval(function () {
+
                     opacity += 0.01;
+
                     alpha = opacity * 100;
                     alpha += 2;
                     alpha > 100 && (alpha = 100);
-                    oLunbopicli[index].style.opacity = alpha/100;
-                    console.log(oLunbopicli[3].style.opacity);
-                    oLunbopicli[index].style.opacity = "alpha(opacity = " + alpha + ")";
+                    oLunbopicli[index].style.opacity = alpha / 100;
+                    oLunbopicli[index ].style.opacity = "alpha(opacity = " + alpha + ")";
                     alpha = 100 && (clearInterval(timer));
-                }, 100);
+                }, 20);
             }
-
-
-
         }
+
+
+
+
 
         function show(){
             showNum();
