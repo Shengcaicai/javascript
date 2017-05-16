@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>悬停</title>
+    <style>
+        body{
+            padding:0;
+            margin:0;
+            background: #F7F7F7;
+
+        }
+
+        .img{
+            width:320px;
+            height:320px;/*若未设置元素宽高，div为块级元素，占满整行*/
+            margin:100px auto; /*居中位置*/
+            border:1px solid #ccc;
+            position: relative;/*固定悬停颜色变化位置,若去除对象为整个屏幕*/
+
+        }
+
+
+
+        .img:hover:after{
+            background-color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            width:100%;
+            height:100%;
+            left:0;
+            top:0;
+            content:'';/*div的高度设置为百分比(例如100%)时，div的高度将参照浏览器可视区域(viewport)的高度来计算。*/
+        }
+    </style>
+
+</head>
+<body>
+   <div class="img">
+       <img src="image/30.jpeg">
+   </div>
+</body>
+</html>

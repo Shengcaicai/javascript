@@ -19,7 +19,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="日历一.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业三/日历/日历一.html">
+        <entry file="file://$PROJECT_DIR$/作业三/选择器/日历/日历一.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1213">
               <caret line="91" column="38" lean-forward="false" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
@@ -28,11 +28,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="首字下沉.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/作业三/首字下沉/首字下沉.html">
+      <file leaf-file-name="首字下沉.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业三/选择器/首字下沉/首字下沉.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="遮罩.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业三/颜色/遮罩效果/遮罩.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="悬停效果.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业三/颜色/悬停效果/悬停效果.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="文本.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业三/文本/文本.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="盒模型.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/作业三/盒模型/盒模型.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="710">
+              <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -76,6 +116,13 @@
         <option value="$PROJECT_DIR$/作业三/日历/日历.html" />
         <option value="$PROJECT_DIR$/作业三/日历/日历一.html" />
         <option value="$PROJECT_DIR$/作业三/首字下沉/首字下沉.html" />
+        <option value="$PROJECT_DIR$/作业三/颜色/遮罩效果/image/遮罩.html" />
+        <option value="$PROJECT_DIR$/作业三/颜色/遮罩效果/遮罩效果.html" />
+        <option value="$PROJECT_DIR$/作业三/颜色/悬停效果/悬停.html" />
+        <option value="$PROJECT_DIR$/作业三/颜色/悬停效果/悬停效果.html" />
+        <option value="$PROJECT_DIR$/作业三/颜色/遮罩效果/遮罩.html" />
+        <option value="$PROJECT_DIR$/作业三/文本/文本.html" />
+        <option value="$PROJECT_DIR$/作业三/盒模型/盒模型.html" />
       </list>
     </option>
   </component>
@@ -86,8 +133,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="61" />
+    <option name="y" value="529" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="803" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -118,34 +167,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Homework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Homework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="作业三" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Homework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Homework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -158,11 +179,14 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/作业一/image" />
+      <recent name="$PROJECT_DIR$/作业三/盒模型/image" />
+      <recent name="$PROJECT_DIR$/作业三/颜色/悬停效果/image" />
+      <recent name="$PROJECT_DIR$/作业三/颜色/遮罩效果/image" />
+      <recent name="$PROJECT_DIR$/作业三/选择器" />
+      <recent name="$PROJECT_DIR$/作业三" />
     </key>
   </component>
   <component name="RunManager">
@@ -242,15 +266,15 @@
       <workItem from="1493954796544" duration="13426000" />
       <workItem from="1494061777079" duration="41080000" />
       <workItem from="1494819339959" duration="1239000" />
-      <workItem from="1494849078526" duration="2260000" />
+      <workItem from="1494849078526" duration="7159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62768000" />
+    <option name="totallyTimeSpent" value="67667000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="61" y="529" width="1440" height="803" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -284,81 +308,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/作业一/jd2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1935">
-          <caret line="129" column="72" lean-forward="true" selection-start-line="129" selection-start-column="72" selection-end-line="129" selection-end-column="72" />
-          <folding>
-            <element signature="e#665#671#0" expanded="true" />
-            <element signature="e#2765#2769#1" expanded="true" />
-            <element signature="e#3375#3379#1" expanded="true" />
-            <element signature="e#3448#3452#1" expanded="true" />
-            <element signature="e#3515#3519#1" expanded="true" />
-            <element signature="e#3588#3592#1" expanded="true" />
-            <element signature="e#3655#3659#1" expanded="true" />
-            <element signature="e#3728#3732#1" expanded="true" />
-            <element signature="e#3795#3799#1" expanded="true" />
-            <element signature="e#3868#3872#1" expanded="true" />
-            <element signature="e#3935#3939#1" expanded="true" />
-            <element signature="e#4008#4012#1" expanded="true" />
-            <element signature="e#4075#4079#1" expanded="true" />
-            <element signature="e#4148#4152#1" expanded="true" />
-            <element signature="e#4215#4219#1" expanded="true" />
-            <element signature="e#4288#4292#1" expanded="true" />
-            <element signature="e#4355#4359#1" expanded="true" />
-            <element signature="e#5066#5070#1" expanded="true" />
-            <element signature="e#5120#5124#1" expanded="true" />
-            <element signature="e#9728#9732#1" expanded="true" />
-            <element signature="e#9782#9786#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业一/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业二/冒泡排序.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业二/1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业一/JD.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8070">
-          <caret line="538" column="0" lean-forward="true" selection-start-line="538" selection-start-column="0" selection-end-line="538" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业一/image/30.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/作业一/image/29.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -381,27 +330,27 @@
         <state relative-caret-position="105">
           <caret line="7" column="70" lean-forward="false" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
           <folding>
-            <element signature="e#665#671#0" expanded="true" />
-            <element signature="e#2765#2769#1" expanded="true" />
-            <element signature="e#3375#3379#1" expanded="true" />
-            <element signature="e#3448#3452#1" expanded="true" />
-            <element signature="e#3515#3519#1" expanded="true" />
-            <element signature="e#3588#3592#1" expanded="true" />
-            <element signature="e#3655#3659#1" expanded="true" />
-            <element signature="e#3728#3732#1" expanded="true" />
-            <element signature="e#3795#3799#1" expanded="true" />
-            <element signature="e#3868#3872#1" expanded="true" />
-            <element signature="e#3935#3939#1" expanded="true" />
-            <element signature="e#4008#4012#1" expanded="true" />
-            <element signature="e#4075#4079#1" expanded="true" />
-            <element signature="e#4148#4152#1" expanded="true" />
-            <element signature="e#4215#4219#1" expanded="true" />
-            <element signature="e#4288#4292#1" expanded="true" />
-            <element signature="e#4355#4359#1" expanded="true" />
-            <element signature="e#5066#5070#1" expanded="true" />
-            <element signature="e#5120#5124#1" expanded="true" />
-            <element signature="e#9728#9732#1" expanded="true" />
-            <element signature="e#9782#9786#1" expanded="true" />
+            <element signature="e#665#671#0" expanded="false" />
+            <element signature="e#2765#2769#1" expanded="false" />
+            <element signature="e#3375#3379#1" expanded="false" />
+            <element signature="e#3448#3452#1" expanded="false" />
+            <element signature="e#3515#3519#1" expanded="false" />
+            <element signature="e#3588#3592#1" expanded="false" />
+            <element signature="e#3655#3659#1" expanded="false" />
+            <element signature="e#3728#3732#1" expanded="false" />
+            <element signature="e#3795#3799#1" expanded="false" />
+            <element signature="e#3868#3872#1" expanded="false" />
+            <element signature="e#3935#3939#1" expanded="false" />
+            <element signature="e#4008#4012#1" expanded="false" />
+            <element signature="e#4075#4079#1" expanded="false" />
+            <element signature="e#4148#4152#1" expanded="false" />
+            <element signature="e#4215#4219#1" expanded="false" />
+            <element signature="e#4288#4292#1" expanded="false" />
+            <element signature="e#4355#4359#1" expanded="false" />
+            <element signature="e#5066#5070#1" expanded="false" />
+            <element signature="e#5120#5124#1" expanded="false" />
+            <element signature="e#9728#9732#1" expanded="false" />
+            <element signature="e#9782#9786#1" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -451,27 +400,27 @@
         <state relative-caret-position="105">
           <caret line="7" column="70" lean-forward="true" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
           <folding>
-            <element signature="e#665#671#0" expanded="true" />
-            <element signature="e#2765#2769#1" expanded="true" />
-            <element signature="e#3375#3379#1" expanded="true" />
-            <element signature="e#3448#3452#1" expanded="true" />
-            <element signature="e#3515#3519#1" expanded="true" />
-            <element signature="e#3588#3592#1" expanded="true" />
-            <element signature="e#3655#3659#1" expanded="true" />
-            <element signature="e#3728#3732#1" expanded="true" />
-            <element signature="e#3795#3799#1" expanded="true" />
-            <element signature="e#3868#3872#1" expanded="true" />
-            <element signature="e#3935#3939#1" expanded="true" />
-            <element signature="e#4008#4012#1" expanded="true" />
-            <element signature="e#4075#4079#1" expanded="true" />
-            <element signature="e#4148#4152#1" expanded="true" />
-            <element signature="e#4215#4219#1" expanded="true" />
-            <element signature="e#4288#4292#1" expanded="true" />
-            <element signature="e#4355#4359#1" expanded="true" />
-            <element signature="e#5066#5070#1" expanded="true" />
-            <element signature="e#5120#5124#1" expanded="true" />
-            <element signature="e#9728#9732#1" expanded="true" />
-            <element signature="e#9782#9786#1" expanded="true" />
+            <element signature="e#665#671#0" expanded="false" />
+            <element signature="e#2765#2769#1" expanded="false" />
+            <element signature="e#3375#3379#1" expanded="false" />
+            <element signature="e#3448#3452#1" expanded="false" />
+            <element signature="e#3515#3519#1" expanded="false" />
+            <element signature="e#3588#3592#1" expanded="false" />
+            <element signature="e#3655#3659#1" expanded="false" />
+            <element signature="e#3728#3732#1" expanded="false" />
+            <element signature="e#3795#3799#1" expanded="false" />
+            <element signature="e#3868#3872#1" expanded="false" />
+            <element signature="e#3935#3939#1" expanded="false" />
+            <element signature="e#4008#4012#1" expanded="false" />
+            <element signature="e#4075#4079#1" expanded="false" />
+            <element signature="e#4148#4152#1" expanded="false" />
+            <element signature="e#4215#4219#1" expanded="false" />
+            <element signature="e#4288#4292#1" expanded="false" />
+            <element signature="e#4355#4359#1" expanded="false" />
+            <element signature="e#5066#5070#1" expanded="false" />
+            <element signature="e#5120#5124#1" expanded="false" />
+            <element signature="e#9728#9732#1" expanded="false" />
+            <element signature="e#9782#9786#1" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -655,27 +604,27 @@
         <state relative-caret-position="390">
           <caret line="129" column="72" lean-forward="true" selection-start-line="129" selection-start-column="72" selection-end-line="129" selection-end-column="72" />
           <folding>
-            <element signature="e#665#671#0" expanded="true" />
-            <element signature="e#2765#2769#1" expanded="true" />
-            <element signature="e#3375#3379#1" expanded="true" />
-            <element signature="e#3448#3452#1" expanded="true" />
-            <element signature="e#3515#3519#1" expanded="true" />
-            <element signature="e#3588#3592#1" expanded="true" />
-            <element signature="e#3655#3659#1" expanded="true" />
-            <element signature="e#3728#3732#1" expanded="true" />
-            <element signature="e#3795#3799#1" expanded="true" />
-            <element signature="e#3868#3872#1" expanded="true" />
-            <element signature="e#3935#3939#1" expanded="true" />
-            <element signature="e#4008#4012#1" expanded="true" />
-            <element signature="e#4075#4079#1" expanded="true" />
-            <element signature="e#4148#4152#1" expanded="true" />
-            <element signature="e#4215#4219#1" expanded="true" />
-            <element signature="e#4288#4292#1" expanded="true" />
-            <element signature="e#4355#4359#1" expanded="true" />
-            <element signature="e#5066#5070#1" expanded="true" />
-            <element signature="e#5120#5124#1" expanded="true" />
-            <element signature="e#9728#9732#1" expanded="true" />
-            <element signature="e#9782#9786#1" expanded="true" />
+            <element signature="e#665#671#0" expanded="false" />
+            <element signature="e#2765#2769#1" expanded="false" />
+            <element signature="e#3375#3379#1" expanded="false" />
+            <element signature="e#3448#3452#1" expanded="false" />
+            <element signature="e#3515#3519#1" expanded="false" />
+            <element signature="e#3588#3592#1" expanded="false" />
+            <element signature="e#3655#3659#1" expanded="false" />
+            <element signature="e#3728#3732#1" expanded="false" />
+            <element signature="e#3795#3799#1" expanded="false" />
+            <element signature="e#3868#3872#1" expanded="false" />
+            <element signature="e#3935#3939#1" expanded="false" />
+            <element signature="e#4008#4012#1" expanded="false" />
+            <element signature="e#4075#4079#1" expanded="false" />
+            <element signature="e#4148#4152#1" expanded="false" />
+            <element signature="e#4215#4219#1" expanded="false" />
+            <element signature="e#4288#4292#1" expanded="false" />
+            <element signature="e#4355#4359#1" expanded="false" />
+            <element signature="e#5066#5070#1" expanded="false" />
+            <element signature="e#5120#5124#1" expanded="false" />
+            <element signature="e#9728#9732#1" expanded="false" />
+            <element signature="e#9782#9786#1" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -696,7 +645,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业三/日历/日历一.html">
+    <entry file="file://$PROJECT_DIR$/作业三/选择器/日历/日历一.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1213">
           <caret line="91" column="38" lean-forward="false" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
@@ -704,10 +653,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业三/首字下沉/首字下沉.html">
+    <entry file="file://$PROJECT_DIR$/作业三/选择器/首字下沉/首字下沉.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="210">
+          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业三/颜色/遮罩效果/image/遮罩.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业三/颜色/遮罩效果/遮罩效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业三/颜色/悬停效果/悬停.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业三/颜色/遮罩效果/遮罩.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业三/颜色/悬停效果/悬停效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业三/文本/文本.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业三/盒模型/盒模型.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
           <folding />
         </state>
       </provider>
