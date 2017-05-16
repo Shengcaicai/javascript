@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒模型</title>
+    <style>
+        body{
+            padding:0;
+            margin:0;
+        }
+
+        .box{
+            text-align: center;
+            margin-top:40px;
+        }
+
+        .box_1{
+            display:inline-block;
+            margin-right:10px;
+            width:316px;
+            height:170px;/*限定边框宽高为定值*/
+            position：relative;
+            box-sizing: border-box;
+            overflow:hidden;
+        }
+
+        .box_1:hover{
+            border:4px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="box_1">
+        <img src="image/33.jpeg">
+    </div>
+    <div class="box_1">
+        <img src="image/34.jpeg">
+    </div>
+    <div class="box_1">
+        <img src="image/35.jpeg">
+    </div>
+</div>
+
+</body>
+</html>

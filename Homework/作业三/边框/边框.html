@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>边框</title>
+    <style>
+        body{
+            padding:0;
+            margin:0;
+            background-color: #F7F7F7;
+        }
+
+
+        .items{
+            width: 1240px;
+            height: 260px;
+            margin: 100px auto;
+        }
+
+        .item{
+            float: left;
+            width: 224px;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 0 #eee;
+            margin-right: 20px;
+        }
+
+
+        .item .box{
+            height:112px;
+            position:relative;
+        }
+
+        .item .box >img{
+            width:224px;
+            height:112px;
+        }
+
+        .box .logo{
+            width: 80px;
+            height: 80px;
+            border: 4px solid #fff;
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            bottom: -44px;
+            margin-left: -44px;
+            overflow: hidden;
+        }
+
+        .item .blank{
+            background: #fff;
+            height: 112px;
+        }
+    </style>
+</head>
+<body>
+  <div class="items">
+      <div class="item">
+          <div class="box">
+              <img src="image/37.jpeg">
+              <a href="javascript:" class="logo"><img src="image/42.jpeg"></a>
+          </div>
+          <div class="blank"></div>
+      </div>
+      <div class="item">
+          <div class="box">
+              <img src="image/38.jpeg">
+              <a href="javascript:" class="logo"><img src="image/43.jpeg"></a>
+          </div>
+          <div class="blank"></div>
+      </div>
+      <div class="item">
+          <div class="box">
+              <img src="image/39.jpeg">
+              <a href="javascript:" class="logo"><img src="image/44.jpeg"></a>
+          </div>
+          <div class="blank"></div>
+      </div>
+      <div class="item">
+          <div class="box">
+              <img src="image/40.jpeg">
+              <a href="javascript:" class="logo"><img src="image/45.jpeg"></a>
+          </div>
+          <div class="blank"></div>
+      </div>
+      <div class="item">
+          <div class="box">
+              <img src="image/41.jpeg">
+              <a href="javascript:" class="logo"><img src="image/46.jpeg"></a>
+          </div>
+          <div class="blank"></div>
+      </div>
+  </div>
+</body>
+</html>
