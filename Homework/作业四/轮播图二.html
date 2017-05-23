@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播二</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            text-decoration:none;
+        }
+
+        body{
+            margin:20px;
+        }
+
+        #container{
+            width:600px;
+            height:400px;
+            overflow:hidden;
+            position:relative;
+            border:1px solid #ccc;
+
+        }
+
+        #container #image{
+            /*postion:relative;相对定位，自己对于自己本身定位，不会脱离整个文档流，
+              postion:absolute;绝对定位，会找一个参照物，会找自己本身最近的一个父元素，前提是离他最近的父元素里面设置了postion:relative;
+              而相对于他进行绝对定位，否则就会对于body本身进行定位，会脱离这个文档流。。。。
+                z-index表示元素的堆叠顺序；*/
+            position:absolute;
+            width:4200px;
+            height:400px;
+            z-index:1;
+        }
+
+        img{
+            float:left;
+        }
+
+        #button {
+            width:130px;
+            height:10px;
+            position:absolute;
+            left:250px;
+            bottom:10px;
+            z-index:2;
+        }
+
+        #button span{
+            width:10px;
+            height:10px;
+            cursor: pointer;
+            border:1px solid #fff;
+            border-radius: 50%;
+            background-color:#ccc;
+            float:left;
+            margin-right:13px;
+        }
+
+        #button span.on{
+            background-color:red;
+        }
+
+        .row{
+            z-index:2;
+            width:40px;
+            height:40px;
+            position:absolute;
+            font-size:36px;
+            font-weight:bold;
+            cursor:pointer;
+            text-align: center;
+            top:180px;
+            background-color: RGBA(0,0,0,.3);
+            color: #fff;
+            line-height:39px;
+            display:none;
+        }
+
+        .row:hover{
+            background-color: RGBA(0,0,0,.7);
+        }
+        #prev{
+            left:10px;
+        }
+
+        #next{
+            right:10px;
+        }
+
+        #container:hover .row{
+            display:block;
+        }
+    </style>
+    <script type="text/javascript">
+
+        /*实现思路 获取元素 - 计算left值 - 图片无限轮播设置 - 箭头图片轮播 - index循环设置 - 小圆点点亮与熄灭 - 点击按钮get图片 - 图片偏移量递归动画 - 图片自动轮播动画- 鼠标移上取下动画 */
+        //获取原元素
+        window.onload= function() {
+            var oCat = document.getElementById("container");
+            var oImg = document.getElementById("image");
+            var oBtn = document.getElementById("button").getElementsByTagName("span");
+            var oPre = document.getElementById("prev");
+            var oNext = document.getElementById("next");
+            var index = 1;
+            var animated = false;
+            var timer;
+
+
+            //计算偏移量显示图片的封装函数
+            function animate(offset) {
+                animated = true;
+                var time = 300;//总位移时间
+                var interval = 10;//位移间隔时间
+                var speed = offset / (time / interval);//每次位移量
+                var newLeft = parseInt(oImg.style.left) + offset;//目标图片left值
+
+
+                function go() {
+                    if (speed > 0 && parseInt(oImg.style.left) < newLeft || speed < 0 && parseInt(oImg.style.left) > newLeft) {
+                        oImg.style.left = parseInt(oImg.style.left) + speed + 'px';
+                        //偏移量显示图片的动画效果
+                        setTimeout(go, interval);//setTime韩函数只执行一次，由于go函数的递归setTime函数被多次调用
+                    } else {
+                        animated = false;
+                        //图片无限轮播设置
+                        oImg.style.left = newLeft + 'px';
+                        if (newLeft > -600) {
+                            oImg.style.left = -3000 + 'px';
+                        }
+                        if (newLeft < -3000) {
+                            oImg.style.left = -600 + 'px';
+                        }
+                    }
+                }
+
+                go();
+            }
+
+            // 图片箭头轮播,右箭头left值递增-600px,左箭头left值递增600px
+            oPre.onclick = function () {
+                //小圆点点亮index需循环,小于1时返回5
+                index -= 1;
+                index = index < 1 ? 5 : index;
+                //点击按钮，index-1，调用showBtn函数
+                showBtn();
+                //箭头向左，偏移量增加600
+                if (!animated) {
+                    animate(600);
+                }
+            };
+
+            oNext.onclick = function () {
+                //小圆点点亮index需循环，大于5时返回1
+                index += 1;
+                index = index > 5 ? 1 : index;
+                //点击按钮，index+1，调用showBtn函数
+                showBtn();
+                //箭头向右，偏移量增加-600
+                if (!animated) {
+                    animate(-600);
+                }
+            };
+
+            // 小圆点点亮
+            function showBtn() {
+                //先循环遍历所有小圆点，已点亮的变为熄灭
+                for (var i = 0; i < oBtn.length; i++) {
+                    if (oBtn[i].className == 'on') {
+                        oBtn[i].className = '';
+                        break;
+                    }
+                }
+                // 将已有的小圆点熄灭后，再执行本次点击小圆点点亮
+                oBtn[index - 1].className = 'on';
+            }
+
+            //点击按钮切换，计算偏移量
+            for (var i = 0; i < oBtn.length; i++) {
+                oBtn[i].onclick = function () {
+                    //得到按钮点击的index
+                    var myIndex = parseInt(this.getAttribute("index"));
+                    //计算偏移量
+                    var offset = (myIndex - index) * -600;
+                    index = myIndex;
+                    //计算新的left值
+                    if (!animated) {
+                        animate(offset);
+                    }
+                    showBtn();
+                }
+            }
+
+
+           //自动播放功能
+            function play() {
+                //setInterval每三秒执行一次
+                timer = setInterval(function () {
+                    oNext.onclick();
+                }, 3000);
+            }
+
+
+            //停止播放功能
+            function stop() {
+                clearInterval(timer);
+            }
+
+            oCat.onmouseover = stop;
+            oCat.onmouseout = play;
+            play();
+        }
+    </script>
+</head>
+<body>
+     <div id="container">
+         <div id="image"  style="left:-600px;">
+             <img src="img/5.jpg" alt=""/>
+             <img src="img/1.jpg" alt=""/>
+             <img src="img/2.jpg" alt=""/>
+             <img src="img/3.jpg" alt=""/>
+             <img src="img/4.jpg" alt=""/>
+             <img src="img/5.jpg" alt=""/>
+             <img src="img/1.jpg" alt=""/>
+         </div>
+
+         <div id ="button">
+             <span index="1" class="on"></span>
+             <span index="2"></span>
+             <span index="3"></span>
+             <span index="4"></span>
+             <span index="5"></span>
+         </div>
+
+         <a href="javascript:"  id="prev" class="row"><</a>
+         <a href="javascript:"  id="next" class="row">></a>
+     </div>
+
+</body>
+</html>
+
+
+
+

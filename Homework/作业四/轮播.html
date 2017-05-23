@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            text-decoration: none;
+        }
+
+        body{
+            padding:20px;
+        }
+
+        #container{
+            position:relative;
+            width:600px;
+            height:400px;
+            overflow:hidden;
+            border:1px solid #ccc;
+        }
+
+        #image{
+            position:absolute;
+            width:4200px;
+            z-index:1;
+        }
+
+        img{
+            float:left;
+        }
+
+        #button{
+            width:130px;
+            height:10px;
+            z-index:2;
+            position:absolute;
+            left:250px;
+            bottom:10px;
+
+        }
+        #button span{
+            width:10px;
+            height:10px;
+            border:1px solid #ccc;
+            background-color:#fff;
+            border-radius: 50%;
+            cursor:pointer;
+            float:left;
+            margin-right:10px;
+        }
+
+        #button span.on{
+            background-color:red;
+        }
+
+        .row{
+            width:40px;
+            height:40px;
+            z-index:2;
+            position:absolute;
+            font-size:36px;
+            font-weight:bold;
+            cursor:pointer;
+            text-align: center;
+            top:180px;
+            background-color: RGBA(0,0,0,.3);
+            color: #fff;
+            line-height:39px;
+
+        }
+
+        #prev {
+            left:11px;
+        }
+
+        #next{
+            left:555px;
+        }
+    </style>
+    <script>
+        window.onload = function(){
+            var oCat = document.getElementById("container");
+            var oImg = document.getElementById("image");
+            var oBtn = document.getElementById("button").getElementsByTagName("span");
+            var oPrev = document.getElementById("prev");
+            var oNext = document.getElementById("next");
+            var index = 1;
+            var timer;
+            var animated = false;
+
+
+
+
+            //图片箭头轮播
+            function animate(offset){
+                animated = true;
+                var time = 300;
+                var interval = 10;
+                var speed = offset/(time/interval);//每次的偏移量
+                var newLeft = parseInt(oImg.style.left) + offset;//目标图片的left值
+
+                function go(){
+                    //图片动画显示
+                    if(speed < 0 && parseInt(oImg.style.left) > newLeft || speed > 0 && parseInt(oImg.style.left) < newLeft){
+                        oImg.style.left = parseInt(oImg.style.left) + speed + 'px';
+                        setTimeout(go,interval);
+                    }else{
+                        animated = false;
+                        //无限轮播判断
+                        oImg.style.left = newLeft + 'px';
+                        if(newLeft  > -600){
+                            oImg.style.left  = -3000 + 'px';
+                        }
+                        //无限轮播判断
+                        if(newLeft  < -3000){
+                            oImg.style.left = -600 + 'px';
+                        }
+                    }
+                }
+                go();//调用go函数
+            }
+
+            oPrev.onclick = function(){
+                index--;
+                //小圆点点亮循环判断
+                if(index < 1 ){
+                    index = 5;
+                }
+                showBtn();
+                if(!animated){
+                    animate(600);
+                }
+            };
+            oNext.onclick = function(){
+                index++;
+                //小圆点点亮循环判断
+                if(index > 5 ){
+                    index = 1;
+                }
+                showBtn();
+                if(!animated){
+                    animate(-600);
+                }
+            };
+
+
+
+
+            //小圆点点亮
+            function showBtn(){
+                for(var i = 0; i < oBtn.length;i++){
+                    if(oBtn[i].className=="on"){
+                        oBtn[i].className = "";
+                        break;
+                    }
+                }
+                oBtn[index-1].className = "on";
+            }
+
+            //点击按钮计算偏移量显示图片
+            for(var i = 0; i < oBtn.length;i++){
+                oBtn[i].onclick = function(){
+                    //得到点击按钮的index
+                    var myIndex = parseInt(this.getAttribute("index"));
+                    //计算偏移量
+                    var offset = (myIndex - index) * -600;
+                    if(!animated){
+                        animate(offset);
+                    }
+                    index = myIndex;
+                    showBtn();
+                }
+            }
+
+            //自动播放功能
+            function play(){
+               timer = setInterval(function(){
+                    oNext.onclick();
+                },3000)
+            }
+            play();
+
+            //停止播放
+            function stop(){
+                clearInterval(timer);
+            }
+
+
+            //鼠标移出播放
+            oCat.onmouseout= play;
+            oCat.onmouseover= stop;
+
+
+
+
+
+        }
+    </script>
+</head>
+<body>
+<body>
+<div id="container">
+    <div id="image"  style="left:-600px;">
+        <img src="img/5.jpg" alt=""/>
+        <img src="img/1.jpg" alt=""/>
+        <img src="img/2.jpg" alt=""/>
+        <img src="img/3.jpg" alt=""/>
+        <img src="img/4.jpg" alt=""/>
+        <img src="img/5.jpg" alt=""/>
+        <img src="img/1.jpg" alt=""/>
+    </div>
+
+    <div id ="button">
+        <span index="1" class="on"></span>
+        <span index="2"></span>
+        <span index="3"></span>
+        <span index="4"></span>
+        <span index="5"></span>
+    </div>
+
+    <a href="javascript:"  id="prev" class="row"><</a>
+    <a href="javascript:"  id="next" class="row">></a>
+</div>
+
+</body>
+</html>

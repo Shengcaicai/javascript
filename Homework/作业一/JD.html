@@ -94,10 +94,8 @@
                 <div class="text">
                     <ul>
                         <div class="text-left">
-                            <li>
-                                <p class="content"><a href="#">家用电器</a></p>
-                                <p class="enter">></p>
-                            </li>
+                            <p class="content"><a href="#">家用电器</a></p>
+                            <p class="enter">></p>
                         </div>
 
                         <div class="text-left">
@@ -203,10 +201,7 @@
                 <div class="pic">
                     <ul id="lunbo-img">
                         <li class="current li_1"><a href="javascript:;"><img src="image/14.jpeg"></a></li>
-                        <li class="li_2"><a href="javascript:;"><img src="image/30.jpg"></a></li>
-                        <li class="li_3"><a href="javascript:;"><img src="image/14.jpeg"></a></li>
-                        <li class="li_4"><a href="javascript:;"><img src="image/30.jpg"></a></li>
-                        <li class="li_5"><a href="javascript:;"><img src="image/14.jpeg"></a></li>
+
                     </ul>
 
 
@@ -470,87 +465,4 @@
     </footer>
 
 </body>
-
-<script type="text/javascript">
-        var oNum = document.getElementById("lunbo-num");
-        var oPic = document.getElementById("lunbo-img");
-        var oLunbonumli = oNum.getElementsByTagName("li");
-        var oLunbopicli = oPic.getElementsByTagName("li");
-        var i = 0;
-
-
-
-       function showNum(){
-           for(var x = 0; x < oLunbonumli.length;x++){
-                    oLunbonumli[x].style.background = "grey";
-            }
-            oLunbonumli[i].style.background = "red";
-            i++;
-            if(i >= oLunbonumli.length){
-                i = 0;
-            }
-        }
-
-
-
-        var opacity = 0;
-
-        var index = 0;
-
-
-
-
-
-//
-//        //自动播放函数
-//        function autoPlay(index){
-//            play = setInterval(function(){
-//                index++;
-//                index >= oImg.length && (index = 0);
-//                showOpa(index);
-//            },2000)
-//        }
-//        autoPlay();
-
-
-
-        //每个图片透明度从0到1的动画
-        function showOpa() {
-
-            for ( var i = 0; i < oLunbopicli.length; i++) {
-                oLunbopicli[i].style.opacity = 0;
-                oLunbopicli[i].style.filter = "alpha(opacity = 0)";
-
-
-                timer = setInterval(function () {
-
-                    opacity += 0.01;
-
-                    alpha = opacity * 100;
-                    alpha += 2;
-                    alpha > 100 && (alpha = 100);
-                    oLunbopicli[index].style.opacity = alpha / 100;
-                    oLunbopicli[index ].style.opacity = "alpha(opacity = " + alpha + ")";
-                    alpha = 100 && (clearInterval(timer));
-                }, 20);
-            }
-        }
-
-
-
-
-
-        function show(){
-            showNum();
-            showOpa();
-        }
-
-        setInterval("show()",1000);
-
-
-
-
-
-
-</script>
 </html>
