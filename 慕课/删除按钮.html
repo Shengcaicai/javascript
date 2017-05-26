@@ -37,6 +37,7 @@
                  tx.innerHTML = "xh00" + num;
                  th.innerHTML = "第" + num + "学生";
                  var ty = document.createElement("td");
+                 /*this代表当前这个标签节点。在dom中一切皆对象。this指代当前所指的对象，即把指向的对象删除掉*/
                  ty.innerHTML = "<a href='javascript:;' onclick='remove(this)'>删除</a>";
                  var tab = document.getElementById("table");
                  tab.appendChild(tr);
@@ -52,6 +53,7 @@
 
         // 创建删除函数
              function remove(obj){
+                 //obj即传入的参数为一个对象，不然你函数体内就没办法呢引用属性了
                    var tr = obj.parentNode.parentNode;
                    tr.parentNode.removeChild(tr);
              }

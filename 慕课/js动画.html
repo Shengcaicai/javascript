@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style type="text/css">
+        *{
+            padding:0;
+            margin:0;
+        }
+        #box{
+            width:200px;
+            height:200px;
+            background:red;
+            position:relative;  /*物体初始必须要有此参数，否则不能实现物体的移动*/
+            left:-200px;
+            top:0;
+        }
+        #box span{
+            width:20px;
+            height:45px;
+            background:green;
+            position:absolute;
+            left:200px;
+            top:75px;
+            color:#fff;
+            text-align:center;
+            padding-top:10px;
+            cursor:pointer;
+        }
+    </style>
+    <script type="text/javascript">
+       window.onload = function() {
+           var oDiv = document.getElementById("box");
+           var timer;
+
+           oDiv.onmouseover = function () {
+               startMove(0);
+           };
+           oDiv.onmouseout = function () {
+               startMove(-200);
+           };
+
+
+           function startMove(iTarget) {
+               //清除计时器的累加
+               clearInterval(timer);
+               var oDiv = document.getElementById("box");
+               timer = setInterval(function () {
+                   var speed = 0;
+                   //oDiv.offsetLeft为当前left直接属性
+                   if(oDiv.offsetLeft < iTarget){
+                       speed = 10;
+                   }else{
+                       speed = -10;
+                   }
+                   if (oDiv.offsetLeft == iTarget) {
+                       clearInterval(timer);
+                   }else{
+                       oDiv.style.left = oDiv.offsetLeft + speed + 'px';
+                   }
+               }, 20)
+           }
+
+       }
+    </script>
+</head>
+<body>
+<div id="box"><span id="share">分享</span></div>
+</body>
+</html>

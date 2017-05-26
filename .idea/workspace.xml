@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a49219d1-c7b6-4dc1-acfa-a158efdde26a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/慕课/2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/慕课/DOM.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/慕课/S删除节点.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/慕课/停止计时器.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/慕课/删除按钮.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/慕课/取消计时器.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/慕课/定时器.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/慕课/计时器.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/慕课/返回页面.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/慕课/7-23.html" afterPath="$PROJECT_DIR$/慕课/7-23 数组操作方法.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/慕课/js动画.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/慕课/js缓冲动画.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/慕课/js透明度.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Homework/作业四/透明度轮播.html" afterPath="$PROJECT_DIR$/Homework/作业四/透明度轮播.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/慕课/删除按钮.html" afterPath="$PROJECT_DIR$/慕课/删除按钮.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,16 +25,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DOM.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/慕课/DOM.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/慕课/2.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,8 +48,38 @@
       <file leaf-file-name="透明度轮播.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Homework/作业四/透明度轮播.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="117" column="23" lean-forward="true" selection-start-line="117" selection-start-column="23" selection-end-line="117" selection-end-column="23" />
+            <state relative-caret-position="741">
+              <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js动画.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/慕课/js动画.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="61" column="12" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js透明度.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/慕课/js透明度.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="523">
+              <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js缓冲动画.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/慕课/js缓冲动画.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -73,8 +88,8 @@
       <file leaf-file-name="轮播图二.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Homework/作业四/轮播图二.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="185" column="36" lean-forward="true" selection-start-line="185" selection-start-column="36" selection-end-line="185" selection-end-column="36" />
+            <state relative-caret-position="1473">
+              <caret line="189" column="21" lean-forward="true" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -95,8 +110,8 @@
       <file leaf-file-name="轮播.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Homework/作业四/轮播.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="110" column="41" lean-forward="false" selection-start-line="110" selection-start-column="41" selection-end-line="110" selection-end-column="41" />
+            <state relative-caret-position="-529">
+              <caret line="134" column="17" lean-forward="true" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -104,31 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="S删除节点.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/慕课/S删除节点.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="停止计时器.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/慕课/停止计时器.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="删除按钮.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="删除按钮.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/慕课/删除按钮.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="600">
+              <caret line="40" column="72" lean-forward="false" selection-start-line="40" selection-start-column="72" selection-end-line="40" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -174,7 +169,6 @@
         <option value="$PROJECT_DIR$/Homework/作业一/JD.html" />
         <option value="$PROJECT_DIR$/Homework/作业一/common.css" />
         <option value="$PROJECT_DIR$/Homework/作业四/轮播.html" />
-        <option value="$PROJECT_DIR$/Homework/作业四/透明度轮播.html" />
         <option value="$PROJECT_DIR$/慕课/7-23.html" />
         <option value="$PROJECT_DIR$/慕课/停止计时器.html" />
         <option value="$PROJECT_DIR$/慕课/计时器.html" />
@@ -185,6 +179,10 @@
         <option value="$PROJECT_DIR$/慕课/S删除节点.html" />
         <option value="$PROJECT_DIR$/慕课/2.html" />
         <option value="$PROJECT_DIR$/慕课/删除按钮.html" />
+        <option value="$PROJECT_DIR$/Homework/作业四/透明度轮播.html" />
+        <option value="$PROJECT_DIR$/慕课/js透明度.html" />
+        <option value="$PROJECT_DIR$/慕课/js动画.html" />
+        <option value="$PROJECT_DIR$/慕课/js缓冲动画.html" />
       </list>
     </option>
   </component>
@@ -253,6 +251,24 @@
               <option name="myItemId" value="Homework" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="作业四" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shengcaicaicai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shengcaicaicai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -271,6 +287,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Homework/作业四" />
       <recent name="$PROJECT_DIR$/Homework/作业一/image" />
       <recent name="$PROJECT_DIR$/Homework/作业三/日历/image" />
       <recent name="$PROJECT_DIR$/Homework/作业三/日历" />
@@ -354,12 +371,12 @@
       <workItem from="1493085052754" duration="3560000" />
       <workItem from="1493091990941" duration="50000" />
       <workItem from="1494830502511" duration="7912000" />
-      <workItem from="1495268791758" duration="63193000" />
+      <workItem from="1495268791758" duration="76559000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115323000" />
+    <option name="totallyTimeSpent" value="128689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -394,21 +411,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Homework/作业一/image/24.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework/作业一/image/23.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework/作业一/image/22.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Homework/作业一/image/21.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -628,34 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Homework/作业四/轮播.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="110" column="41" lean-forward="false" selection-start-line="110" selection-start-column="41" selection-end-line="110" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework/作业四/透明度轮播.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="117" column="23" lean-forward="true" selection-start-line="117" selection-start-column="23" selection-end-line="117" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework/作业四/轮播图二.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="185" column="36" lean-forward="true" selection-start-line="185" selection-start-column="36" selection-end-line="185" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/慕课/停止计时器.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -706,8 +680,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/慕课/删除按钮.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="600">
+          <caret line="40" column="72" lean-forward="false" selection-start-line="40" selection-start-column="72" selection-end-line="40" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework/作业四/轮播.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-529">
+          <caret line="134" column="17" lean-forward="true" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework/作业四/轮播图二.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1473">
+          <caret line="189" column="21" lean-forward="true" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/慕课/js动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="61" column="12" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework/作业四/透明度轮播.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/慕课/js透明度.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/慕课/js缓冲动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>
