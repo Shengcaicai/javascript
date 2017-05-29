@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style type="text/css">
+        *{
+            padding:0;
+            margin:0;
+        }
+        #box{
+            width:200px;
+            height:200px;
+            background:red;
+            position:relative;  /*物体初始必须要有此参数，否则不能实现物体的移动*/
+            left:-200px;
+            top:0;
+        }
+        #box span{
+            width:20px;
+            height:45px;
+            background:green;
+            position:absolute;
+            left:200px;
+            top:75px;
+            color:#fff;
+            text-align:center;
+            padding-top:10px;
+            cursor:pointer;
+        }
+    </style>
+    <script type="text/javascript">
+         window.onload = function(){
+             var oBox = document.getElementById("box");
+             var timer;
+
+             oBox.onmouseover = function(){
+                 startMove(0);
+             };
+             oBox.onmouseout = function(){
+                 startMove(-200);
+             };
+
+             function startMove(iTarget){
+                 clearInterval(timer);
+                 var oBox = document.getElementById("box");
+
+                 timer  = setInterval(function(){
+                     //动画效果
+                     var speed = (iTarget - oBox.offsetLeft) / 20;
+                     speed = speed > 0 ? Math.ceil(speed) : Math.floor(speed);
+                     if(oBox.offsetLeft == iTarget){
+                         clearInterval(timer);
+                     }else{
+                         oBox.style.left = oBox.offsetLeft + speed + 'px';
+                     }
+                 },20)
+             }
+         }
+
+    </script>
+</head>
+<body>
+<div id="box"><span id="share">分享</span></div>
+</body>
+</html>
