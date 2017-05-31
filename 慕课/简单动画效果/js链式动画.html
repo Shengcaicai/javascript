@@ -23,50 +23,70 @@
             filter:alpha(opacity=30);
         }
     </style>
+
     <script>
-        window.onload = function(){
-            var oLi = document.getElementById("li1");
 
-            oLi.onmouseover = function(){
-                startMove(this,'opacity',100);
+        window.onload = function() {
+            oLi = document.getElementById("li1");
+            oLi.onmouseover = function () {
+                var oLi = this;
+                startMove(oLi, 'width', 400, function () {
+                    startMove(oLi, 'height', 300, function () {
+                        startMove(oLi, 'opacity', 100);
+                    });
+                })
             };
-            oLi.onmouseout = function(){
-                startMove(this,'opacity',30);
+            oLi.onmouseout = function () {
+                startMove(oLi, 'width', 200, function () {
+                    startMove(oLi, 'opacity', 30);
+                })
             };
+        }
+
+            /*
+             oDiv2.onmouseover = function(){
+             startMove(this,'height',400);
+             };
+             oDiv2.onmouseout = function(){
+             startMove(this,'height',200);
+             };*/
 
 
-            function startMove(obj,attr,iTarget){
-                //清除定时器的累加
+
+
+            function startMove(obj,attr,iTarget,fn){
                 clearInterval(obj.timer);
                 obj.timer = setInterval(function(){
-                    //当前物体属性值
                     var icur = 0;
-                    //判断属性是否为透明度
                     if(attr == 'opacity'){
+                        //透明度样式获取方法
                         icur = Math.round(parseFloat(getStyle(obj,attr)) * 100);
                     }else{
-                        icur = parseInt(getStyle(obj,attr));
+                        icur =  parseInt(getStyle(obj,attr));
                     }
 
-
-
-
-                    var speed = (iTarget - icur) / 8;
+                    //计算速度
+                    var speed = (iTarget - icur ) / 8;
                     speed = speed > 0 ? Math.ceil(speed) : Math.floor(speed);
-                    if(iTarget == icur){
+                    //检测停止
+                    if(iTarget == icur ){
                         clearInterval(obj.timer);
+                        if(fn){
+                            fn();
+                        }
                     }else{
+                        //透明度样式获取方法
                         if(attr == 'opacity'){
-                            //判断属性是否为透明度
-                            obj.style.opacity = (icur + speed) / 100;
-                            obj.style.filter = 'alpha(opacity:'+(icur + speed)+')';
+                            obj.style.opacity = (icur  + speed ) /100 ;
                         }else{
-                            obj.style[attr] = icur + speed + 'px';
+                            //获取样式的方法
+                            obj.style[attr]= icur  + speed + 'px';
                         }
                     }
-                },30);
-
+                },60)
             }
+
+
 
             //获取样式
             function getStyle(obj,attr){
@@ -76,11 +96,17 @@
                     return getComputedStyle(obj,false)[attr];
                 }
             }
-        }
+
+
 
 
 
     </script>
+
+
+
+
+
 </head>
 <body>
     <ul>

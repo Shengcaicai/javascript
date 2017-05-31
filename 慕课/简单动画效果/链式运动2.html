@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            width:200px;
+            height:200px;
+            background: red;
+            position: relative;
+            top:0;
+            opacity: 0.3;
+            filter: alpha(opacity:30);
+            margin: 10px;
+            border: 2px solid blue;
+            opacity: 0.3;
+            filter: alpha(opacity:30);
+        }
+    </style>
+    <script type="text/javascript">
+        // window.onload=function(){
+        //  var box=document.getElementById("box")
+        //  // for(var i=0;i<box.length;i++){
+
+        //  //  box[i].onmouseover=function(){
+        //  //      startMove(this,'opacity',100);
+        //  //  }
+        //  //  box[i].onmouseout=function(){
+        //  //      startMove(this,'opacity',30);
+        //  //  }
+        //  // }
+        //  box.onmouseover = function(){
+        //      var g=this
+        //      var d=15
+        //      startMove(d,g,'opacity',100,function(){
+        //          startMove(d,g,'height',100,function(){
+        //              startMove(d,g,'width',300)
+        //          })
+        //      })
+        //  }
+        //  box.onmouseout = function(){
+        //      setInterval(function(){
+        //          startMove(40,box,'width',0)
+        //      },500)
+
+        //  }
+        // }
+
+        // alpha=30;
+        // //timer=null;
+        // function startMove(c,obj,attr,iTarget,fn){
+        //      clearInterval(obj.timer)
+        //      obj.timer=setInterval(function(){
+        //      var icu=0;
+        //      if(attr=='opacity'){
+        //          icu=Math.round(parseFloat(getStyle(obj,attr))*100);
+        //      }
+        //      else{
+        //          icu=parseInt(getStyle(obj,attr))
+        //      }
+        //      var speed = (iTarget-icu)/c
+        //      speed = speed>0?Math.ceil(speed):Math.floor(speed);
+        //      if(icu == iTarget){
+        //      clearInterval(obj.timer)
+        //          if(fn){
+        //              fn()
+        //          }
+        //      }
+        //      else{
+        //          if(attr == 'opacity'){
+        //              icu = icu+speed
+        //              obj.style.filter='alpha=(opacity='+(icu+speed)+')'
+        //              obj.style.opacity = icu/100;
+        //          }
+        //          else{
+        //              obj.style[attr] = icu+speed+"px"
+        //          }
+        //      }
+        //  },30)
+        // }
+        // function getStyle(obj,attr){
+        //  if(obj.currentStyle){
+        //      return obj.currentStyle[attr]
+        //  }
+        //  else{
+        //      return getComputedStyle(obj,false)[attr]
+        //  }
+        // }
+
+
+
+
+        window.onload=function(){
+            var box=document.getElementById("box")
+
+            box.onmouseover=function(){
+                var g=this;
+                startMove(g,100,'opacity',function(){
+                    startMove(g,400,'width',function(){
+                        startMove(g,300,'height')
+                    })
+                })
+            }
+            box.onmouseout=function(){
+                startMove(this,30,'opacity',function(){
+                    startMove(box,200,'width',function(){
+                        startMove(box,200,'height')
+                    })
+                })
+            }
+
+        }
+        var timer=null
+        function startMove(obj,iTarget,attr,fn){
+            clearInterval(obj.timer)
+            //var box=document.getElementById("box")
+            obj.timer=setInterval(function(){
+
+                if(attr == 'opacity'){
+                    icu=Math.round(parseFloat(getStyle(obj,attr))*100);
+                }else{
+                    icu=parseInt(getStyle(obj,attr))
+                }
+                var speed=(iTarget-icu)/30
+                if(speed>0){
+                    speed=Math.ceil(speed)
+                }
+                else{
+                    speed=Math.floor(speed)
+                }
+                if(icu == iTarget){
+                    clearInterval(obj.timer)
+                    if(fn){
+                        fn()
+                    }
+                }
+                else{
+                    if(attr=='opacity'){
+                        obj.style.opacity = (icu+speed)/100;
+
+                    }else{
+                        obj.style[attr] = icu+speed+"px"
+                    }
+
+                }
+            },30)
+        }
+        function getStyle(obj,attr){
+            if(obj.currentStyle){
+                return obj.currentStyle[attr]
+            }
+            else{
+                return getComputedStyle(obj,false)[attr]
+            }
+        }
+
+
+
+    </script>
+</head>
+<body>
+<div id="box"></div>
+
+</body>
+</html>

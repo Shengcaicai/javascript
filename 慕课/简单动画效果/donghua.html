@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+       *{
+          padding:0;
+          margin:0;
+        }
+
+        body{
+            text-align: center;
+        }
+
+        #div1{
+            width: 401px;
+            height: 400px;
+            border: 1px solid #ccc;
+            background-color: #eee;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+
+        #div1 a{
+            width: 78px;
+            height: 90px;
+            border: 1px solid #ccc;
+            background-color: #FFF;
+            display: inline-block;
+            text-decoration: none;
+            color: #000;
+            text-align: center;
+            position: relative;
+            padding-top: -24px;
+            margin: 10px;
+            margin-top: 18px;
+            overflow：hidden;
+        }
+
+       #div1 img{
+           width: 45px;
+           height: auto;
+           overflow：hidden;
+       }
+
+       #div1 i{
+           position:absolute;
+           top:20px;
+           left:0;
+           display:inline-block;
+           width:100%;
+           text-align: center;
+           opacity:1;
+           filter: alpha(opacity=100);
+       }
+
+       #div1 p{
+           top:65px;
+           position:relative;
+           font-size:12px;
+           text-align: center;
+       }
+
+       #p1{
+           margin-top:10px;
+       }
+
+        #div1 a:hover{
+            color:red;
+        }
+
+    </style>
+    <script src="move.js"></script>
+    <script>
+        window.onload = function(){
+             oDiv1 = document.getElementById("div1");
+             oList = oDiv1.getElementsByTagName("a");
+             //循环遍历多个a
+             for(var i = 0;i< oList.length;i++){
+                 //每一个a标签
+                 oList[i].onmouseover = function(){
+                     var ii = this.getElementsByTagName("i")[0];
+                     startMove(ii,{top:-25,opacity:0},function(){
+                         ii.style.top = 30 + 'px';
+                         startMove(ii,{top:20,opacity:100});
+                     });
+                 }
+
+             }
+
+        }
+    </script>
+</head>
+<body>
+<div id="div1">
+    <div id="p1"> 常用功能</div>
+    <a href="#" id="li1"><i><img src="images/个人中心页_我的地区.png"></i><p>个人资料</p></a>
+    <a href="#" id="li2"><i><img src="images/个人中心页_我的收藏.png"></i><p>个人资料</p></a>
+    <a href="#" id="li3"><i><img src="images/个人信息页_宝贝姓名.png"></i><p>个人资料</p></a>
+    <a href="#" id="li4"><i><img src="images/个人信息页_所在班级.png"></i><p>个人资料</p></a>
+    <a href="#" id="li5"><i><img src="images/底部导航栏_星球_跳转发现页.png"></i><p>个人资料</p></a>
+    <a href="#" id="li6"><i><img src="images/我的收藏页_编辑.png"></i><p>个人资料</p></a>
+    <a href="#" id="li7"><i><img src="images/档案页_全部上交.png"></i><p>个人资料</p></a>
+    <a href="#" id="li8"><i><img src="images/浏览照片页_保存.png"></i><p>个人资料</p></a>
+    <a href="#" id="li9"><i><img src="images/浏览照片页_查看详情.png"></i><p>个人资料</p></a>
+</div>
+</body>
+</html>

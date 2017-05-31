@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb18030">
+    <title>Untitled Document</title>
+
+</head>
+<body>
+<script type="text/javascript">
+    /*
+     * param1 Array
+     * param2 Array
+     * return true or false
+     */
+    function arraysSimilar(arr1, arr2){
+        //判断arr1,arr2是否为数组
+        if(arr1 instanceof Array && arr2 instanceof Array){
+            //key数组中的值
+            var key1 = [];  key2 = [];len1 = arr1.length ;len2 = arr2.length;
+            //判断数组长度是否一致
+            if(len1 != len2){return false;}
+            //判断数组成员类型是否相等
+            if(len1){//判断len1不是空数组
+               //join()将数组转化为字符串，indexOf()返回某个指定的字符串值在字符串中首次出现的位置，indexOf()查找不到字符串时返回-1，
+                for(var i = 0;i < len1;i++){
+                    //数组1的类型列表字串
+                    var item1 = arr1[i];
+                    typeFirst = typeof(item1);
+                    if(key1.join().indexOf(typeFirst) < 0){
+                        key1.push(typeFirst);
+                    }
+
+                    //数组2的类型列表字串
+                    var item2 = arr2[i];
+                    typeSecond = typeof(item2);
+                    if(key2.join().indexOf(typeSecond) < 0){
+                        key2.push(typeSecond);
+                    }
+                }
+                key1 = key1.sort();
+                key2 = key2.sort();
+
+                //key1与key2类型字串的比较
+                if(key1.join() == key2.join()){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else{
+                return true;//空数组则相等
+            }
+
+        }else{
+            return false;//不是数组则返回false;
+        }
+
+    }
+
+    /**
+     * 类型判断方法
+     * param item
+     * return type(string,function,boolean,number,undefined,null,window,Date,Array,object)
+     */
+
+
+    function typeaOf (item){
+        var type = typeof item;
+        if(type!= object){
+            //检测基本类型：boolean,number,undefined,null,string
+        }else if(type === null){
+            type = 'null';
+        }else if(type === window){
+            type = 'window';
+        }else{
+            //判断object类型：Array,Date,function
+            if(type instanceof Array){
+                type = 'Array';
+            }else if(type instanceof Date){
+                type = 'Date';
+            }else{
+                type = 'object';
+
+            }
+        }
+        return type;
+    }
+
+
+
+
+</script>
+<script src="testData.js"></script>
+</body>
+</html>
