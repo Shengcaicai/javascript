@@ -1,52 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a49219d1-c7b6-4dc1-acfa-a158efdde26a" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/css1.css" afterPath="$PROJECT_DIR$/Homework/作业六/css1.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/css2.css" afterPath="$PROJECT_DIR$/Homework/作业六/css2.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/1.jpg" afterPath="$PROJECT_DIR$/Homework/作业六/image/1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/10.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/10.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/11.pic" afterPath="$PROJECT_DIR$/Homework/作业六/image/11.pic" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/12.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/12.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/123.png" afterPath="$PROJECT_DIR$/Homework/作业六/image/123.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/13.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/13.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/14.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/14.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/15.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/15.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/16.pic" afterPath="$PROJECT_DIR$/Homework/作业六/image/16.pic" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/17.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/17.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/18.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/18.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/19.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/19.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/2.jpg" afterPath="$PROJECT_DIR$/Homework/作业六/image/2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/20.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/20.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/21.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/21.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/22.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/22.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/220.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/220.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/221.pic" afterPath="$PROJECT_DIR$/Homework/作业六/image/221.pic" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/222.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/222.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/223.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/223.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/224.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/224.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/225.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/225.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/226.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/226.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/23.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/23.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/24.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/24.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/25.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/25.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/26.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/26.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/29.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/29.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/3.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/3.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/3.jpg" afterPath="$PROJECT_DIR$/Homework/作业六/image/3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/30.jpg" afterPath="$PROJECT_DIR$/Homework/作业六/image/30.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/4.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/4.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/4.jpg" afterPath="$PROJECT_DIR$/Homework/作业六/image/4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/5.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/5.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/6.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/6.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/7.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/7.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/8.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/8.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/9.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/9.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/image/JD.jpeg" afterPath="$PROJECT_DIR$/Homework/作业六/image/JD.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Homework/作业一/jingdong.html" afterPath="$PROJECT_DIR$/Homework/作业六/jingdong.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Homework/作业二/JD.html" afterPath="$PROJECT_DIR$/Homework/作业二/JD.html" />
-    </list>
+    <list default="true" id="a49219d1-c7b6-4dc1-acfa-a158efdde26a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -245,8 +200,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="42" />
+    <option name="y" value="376" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="801" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -317,7 +274,6 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -410,16 +366,16 @@
       <workItem from="1496043874268" duration="19691000" />
       <workItem from="1496283583235" duration="152000" />
       <workItem from="1496289742929" duration="574000" />
-      <workItem from="1496302575482" duration="2756000" />
+      <workItem from="1496302575482" duration="3031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171497000" />
+    <option name="totallyTimeSpent" value="171772000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <frame x="42" y="376" width="1440" height="801" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
