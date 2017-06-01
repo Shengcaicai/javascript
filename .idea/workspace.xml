@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a49219d1-c7b6-4dc1-acfa-a158efdde26a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Homework/作业一/image/123.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Homework/作业一/image/220.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Homework/作业一/image/222.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Homework/作业一/image/223.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Homework/作业一/image/224.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Homework/作业一/image/225.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Homework/作业一/css1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Homework/作业一/css2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Homework/作业一/image/221.pic" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Homework/作业一/jingdong.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Homework/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Homework/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="a49219d1-c7b6-4dc1-acfa-a158efdde26a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -182,8 +169,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-26" />
+    <option name="y" value="195" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="801" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -330,7 +319,6 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -423,15 +411,15 @@
       <workItem from="1496043874268" duration="19691000" />
       <workItem from="1496283583235" duration="152000" />
       <workItem from="1496289742929" duration="574000" />
-      <workItem from="1496302575482" duration="1593000" />
+      <workItem from="1496302575482" duration="1826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170334000" />
+    <option name="totallyTimeSpent" value="170567000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="-26" y="195" width="1440" height="801" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
